@@ -1,0 +1,12 @@
+const productids = new Set();
+productids.add(101);
+productids.add(101);
+productids.add(102);
+productids.add(103);
+console.log(productids);
+console.log("total unquie products:", productids.size);
+console.log("has product 102:", productids.has(102));
+console.log("has product 105:", productids.has(105));
+productids.delete(103);
+console.log("after deleting 103:", productids);
+console.log("updated size:", productids.size);
