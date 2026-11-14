@@ -26,7 +26,7 @@ console.log("SKU exists in Map:", productMap.has(searchSKU));
 console.time("array search");
 
 const arrayresult = products.find(
-    product => product.sku == searchSKU
+    product => product.sku === searchSKU
 );
 
 console.timeEnd("array search");

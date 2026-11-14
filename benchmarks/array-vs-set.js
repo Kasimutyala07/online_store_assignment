@@ -1,6 +1,6 @@
 const productSKUs = [];
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 10000; i++) {
     productSKUs.push(`SKU${i}`);
 }
 
